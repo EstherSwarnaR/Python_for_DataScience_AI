@@ -11,16 +11,16 @@ Types of Regression model
 
 ![image](https://github.com/user-attachments/assets/8a8f96e0-212c-404e-bbe5-f0ad123f7726)
 
-# Simple Regression model analysis
+# Simple Regression model analysis :
 
-# Reading Data from website in csv format
-# -> Ways to read data from http
+# Step 1:  Reading Data from website in csv format
+   # -> Ways to read data from http
 
-# 1. pyfetch
-   from pyodide.http import pyfetch
-   resp = await pyfetch(url)
-    if resp.status == 200:
-        with open(filename, "wb") as f:
-            f.write(await resp.bytes())
-
-   df = pd.read_csv("FuelConsumption.csv")
+   # 1. pyfetch
+      from pyodide.http import pyfetch
+      resp = await pyfetch(url)
+       if resp.status == 200:
+           with open(filename, "wb") as f:
+               f.write(await resp.bytes())
+   
+      df = pd.read_csv("FuelConsumption.csv")
