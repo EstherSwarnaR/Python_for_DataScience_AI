@@ -23,7 +23,7 @@
        df.hist()
        plt.show()
        
-       ![histogram](https://github.com/user-attachments/assets/ede4b86d-49e0-4cf9-bc5e-47e7b29ad576)
+   ![histogram](https://github.com/user-attachments/assets/ede4b86d-49e0-4cf9-bc5e-47e7b29ad576)
        
    # 2. Scatter() 
    Shows scatter of Data wrt to x, y labels
@@ -33,4 +33,4 @@
         plt.ylabel("CO2EMISSIONS")
         plt.show()
         
-        ![scatter](https://github.com/user-attachments/assets/162ca8dd-c6f7-4227-8493-02645282d475)
+   ![scatter](https://github.com/user-attachments/assets/162ca8dd-c6f7-4227-8493-02645282d475)
