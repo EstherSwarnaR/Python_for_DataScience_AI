@@ -60,4 +60,16 @@
 
    # 4.2 Create a scatter plot with the two input columns and the output column
 plt.scatter(df['column1'], df['column2'], c=df['column_out'])
+
+
 ![scatterof rev col](https://github.com/user-attachments/assets/fecde2a3-2df2-4329-8eef-cd1e7d83c455)
+
+# 5 Normalize the data for numerical stability
+
+   from sklearn.preprocessing import StandardScaler
+   
+   ss_train = StandardScaler()
+   X_train = ss_train.fit_transform(X_train)
+   
+   ss_test = StandardScaler()
+   X_test = ss_test.fit_transform(X_test)
